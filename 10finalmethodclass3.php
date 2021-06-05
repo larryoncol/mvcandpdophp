@@ -2,6 +2,7 @@
 
 //Final Classes cannot be extended or overwritten
 
+
 final class User10 {
     public $name = "John";
     public $age;   
@@ -12,7 +13,7 @@ final class User10 {
 }
 
 
-// you can directly instantiate a final class
+// you can directly instantiate a final class  dddd
 // but you cannot change the method because it is set to final. Use abstract class if you want to change the method
 // In this case we call the method and simply pass a value
 $user = new User10();
